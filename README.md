@@ -1,4 +1,4 @@
-### config-files
+# config-files
 Some configuration files I use for my Linux box. \
 Including: Vim and Neovim config files, Picom, Alacritty, Zsh\
 ## Installation
