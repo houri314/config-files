@@ -52,4 +52,4 @@ echo "Installing Hourin's system"
 
 install_alacritty
 install_nvim
-
+install_picom
