@@ -1,0 +1,9 @@
+# Hourin's Alacritty Config File
+# Put this file in $HOME/.config/alacritty/
+window:
+  padding:
+    x: 10
+    y: 10
+
+# May need to change this to window: opacity for newer Alacritty versions
+background_opacity: 0.75
