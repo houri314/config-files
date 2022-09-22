@@ -11,6 +11,7 @@ set hlsearch
 map <F2> :noh<CR>
 map <F3> :w<CR>
 map <F12> :!make
+map <C-e> :e 
 
 " Mapping F11 for command shortcuts
 map <F11> :!<Up>
