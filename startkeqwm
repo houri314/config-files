@@ -1,0 +1,14 @@
+# Hourin's WM startup script
+# Change it to your needings
+# To use it, use a DM or change this to .xinitrc to use with startx
+# Comments might have to be removed
+
+
+pulseaudio --start
+feh .config/keqwmbg.png --bg-fill
+picom --experimental-backends --vsync -b
+xset -dpms s 0
+unclutter-xfixes --ignore-scrolling -b
+synclient TapButton2=3
+synclient TapButton1=1
+exec dbus-run-session keqwm
