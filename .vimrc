@@ -1,6 +1,6 @@
-" Hourin's NVim Configuration File
-" For Vim see .vimrc
-" This file goes to $HOME/.config/nvim/
+" Hourin's Vim Configuration File
+" For NVim see init.vim
+" This file goes to $HOME/
 
 " Setting useful stuff
 set nu rnu
