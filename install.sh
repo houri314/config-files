@@ -33,6 +33,21 @@ install_nvim() {	# install init.vim to ~/.config/nvim/
 	fi
 }
 
+install_picom() {
+	if [ ! -d "$CONFIG/picom/" ]; then
+		echo "$CONFIG/picom/ not exists. Creating one."
+		mkdir -p $CONFIG/picom/
+	else
+		echo "$CONFIG/picom/ exists."
+	fi
+
+	if [ ! -f "$CONFIG/picom/picom.conf" ]; then
+		cp -p ./picom.conf -t $CONFIG/picom/
+	else
+		echo "picom.conf already exists."
+	fi
+}
+
 echo "Installing Hourin's system"
 
 install_alacritty
